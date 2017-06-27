@@ -1,0 +1,9 @@
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\bin\Debug\netcoreapp1.1\KingOfPetsAPI.deps.json
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\bin\Debug\netcoreapp1.1\KingOfPetsAPI.runtimeconfig.json
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\bin\Debug\netcoreapp1.1\KingOfPetsAPI.runtimeconfig.dev.json
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\bin\Debug\netcoreapp1.1\KingOfPetsAPI.dll
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\bin\Debug\netcoreapp1.1\KingOfPetsAPI.pdb
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\obj\Debug\netcoreapp1.1\KingOfPetsAPI.csprojResolveAssemblyReference.cache
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\obj\Debug\netcoreapp1.1\KingOfPetsAPI.AssemblyInfo.cs
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\obj\Debug\netcoreapp1.1\KingOfPetsAPI.dll
+C:\Users\cosmin\Desktop\KingOfPetsAPI\KingOfPetsAPI\obj\Debug\netcoreapp1.1\KingOfPetsAPI.pdb
