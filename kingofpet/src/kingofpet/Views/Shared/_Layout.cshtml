@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - kingofpet</title>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -18,7 +19,7 @@
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar" id="header_nav">
         <div class="container">
             <!--<div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -30,7 +31,7 @@
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Kingopet</a>
                  </div>-->
             <div class="logok">
-                <img src="~/images/rsz_1k-icon_white.png" alt="Microsoft Azure" />
+                <img src="~/images/K-1GOLD.png" alt="KingoPet Logo" />
             </div>
 
             <div class="navbar-collapse collapse">
@@ -44,12 +45,8 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2017 - kingopet</p>
-        </footer>
     </div>
-
+    
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -68,5 +65,23 @@
     </environment>
 
     @RenderSection("scripts", required: false)
+
+    <script>
+        $(document).on("scroll", function () {
+            if ($(document).scrollTop() > 0) {
+                $("#header_nav").addClass("shrink");
+                $(".body-content").addClass("padding");
+            }
+            else {
+                $("#header_nav").removeClass("shrink");
+                $(".body-content").removeClass("padding");
+            }
+        });
+    </script>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2017 - kingopet</p>
+        </div>
+    </footer>
 </body>
 </html>

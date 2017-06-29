@@ -2,108 +2,69 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/img1.jpg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Descriere poza 1
-                </p>
+
+<div class="main-container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="~/images/kittens-cat-cat-puppy-rush-45170.jpeg" alt="pets 1" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Descriere poza 1
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/images/pexels-photo-24104.jpg" alt="pets 2" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Descriere poza 2
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/images/pexels-photo-169606.jpeg" alt="pets 3" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Descriere poza 3
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="item">
-            <img src="~/images/img2.jpg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Descriere poza 2
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/img3.jpg" alt="Package Management" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Descriere poza 3
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/img4.jpg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Descriere poza 4
-                </p>
-            </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="follow-btn">
+        <h3>Follow us!</h3>
+        <div class="follow-list">
+            <a class="facebook-logo" href="https://www.facebook.com/kingopetUSA/"></a>
+            <a class="twitter-logo" href="https://twitter.com/kingopet"></a>
+            <a class="instagram-logo" href="https://www.instagram.com/kingopet/"></a>
+            <a class="pinterest-logo" href="https://ro.pinterest.com/kingopet/pins/"></a>
+            <a class="tumbler-logo" href="https://kingopet.tumblr.com/"></a>
         </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+
+
+    <div class="newsletter col-xs-12">
+        <h3>To become a loyal customere enter your email here:</h3>
+
+        <form>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required="">
+            <div class="clear"><input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </form>
+        <span class="glyphicon glyphicon-menu-right arrow-right"></span>
+    </div>
 </div>
-
-<p>
-    To become a loyal customer
-    Enter your email here:
-    <input id="Text1" type="text" />
-    <input id="Button1" type="button" value="Send email" />
-</p>
-
-
-
-<p>
-    You can find us:
-</p>
-
-<table>
-    <td>
-    <th>
-        <div class="tumblr-button">
-            <a href="https://kingopet.tumblr.com/">
-                <img src="~/images/tumblr.png" alt="Microsoft Azure" />
-            </a>
-        </div>
-    </th>
-    <th>
-        <div class="instagram-button">
-            <a href="https://www.instagram.com/kingopet/">
-                <img src="~/images/instagram.jpg" alt="Microsoft Azure" />
-            </a>
-        </div>
-    </th>
-    <th>
-        <div class="pinterest-button">
-            <a href="https://ro.pinterest.com/kingopet/pins/">
-                <img src="~/images/pinterest.jpg" alt="Microsoft Azure" />
-            </a>
-        </div>
-    </th>
-    <th>
-        <div class="twitter-button">
-            <a href="https://twitter.com/kingopet">
-                <img src="~/images/twitter.jpg" alt="Microsoft Azure" />
-            </a>
-        </div>
-    </th>
-    <th>
-        <div class="facebook-button">
-            <a href="https://www.facebook.com/kingopetUSA/">
-                <img src="~/images/facebook.jpg" alt="Microsoft Azure" />
-            </a>
-        </div>
-    </th>
-    <th>
-        </td>
-</table>
-
