@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Admin";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/admin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="center-block">
+    <button id="sendEmail"> Send Email</button>
+    <table id="emails-table" class="table">
+     
+    </table>
+    <div class="pagination">
+        <a id="pageMinus">&laquo;</a>
+        <a id="page1" onclick="return theFunction(event);">1</a>
+        <a id="page2" onclick="return theFunction(event);">2</a>
+        <a id="page3" onclick="return theFunction(event);">3</a>
+        <a id="page4" onclick="return theFunction(event);">4</a>
+        <a id="page5" onclick="return theFunction(event);">5</a>
+        <a id="page6" onclick="return theFunction(event);">6</a>
+        <a id="pagePlus">&raquo;</a>
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h2>Mail to all list</h2>
+        <input id="emailSubject" name="Subject" placeholder="Subject" required>
+        <textarea id="emailBody" placeholder="Email body" required></textarea>
+        <input id="emailFiles" type="file" id="myFile" multiple>
+        <button id="emailSubmit">Send</button>
+    </div>
+</div>
+</body>
+
+<script src="~/js/admin.js"></script>

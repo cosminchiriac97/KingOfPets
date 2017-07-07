@@ -1,0 +1,9 @@
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\bin\Release\netcoreapp1.0\kingofpet.deps.json
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\bin\Release\netcoreapp1.0\kingofpet.runtimeconfig.json
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\bin\Release\netcoreapp1.0\kingofpet.runtimeconfig.dev.json
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\obj\Release\netcoreapp1.0\kingofpet.csprojResolveAssemblyReference.cache
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\obj\Release\netcoreapp1.0\kingofpet.AssemblyInfo.cs
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\bin\Release\netcoreapp1.0\kingofpet.dll
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\bin\Release\netcoreapp1.0\kingofpet.pdb
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\obj\Release\netcoreapp1.0\kingofpet.dll
+A:\ProiectKINGOPET\KingOfPets\kingofpet\src\kingofpet\obj\Release\netcoreapp1.0\kingofpet.pdb
